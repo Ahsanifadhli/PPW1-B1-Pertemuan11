@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Mini Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Selamat Datang di Kalkulator Mini Javascript</h1>
+    
+    <div class="buttons">
+        <button onclick="hitung('tambah')">Penjumlahan</button>
+        <button onclick="hitung('kurang')">Pengurangan</button>
+        <button onclick="hitung('kali')">Perkalian</button>
+        <button onclick="hitung('bagi')">Pembagian</button>
+    </div>
+    
+    <div class="info-box" id="infoOperasi">
+        Hasil: Belum ada operasi yang dipilih
+    </div>
+    
+    <table id="hasilTable">
+        <thead>
+            <tr>
+                <th>Bilangan 1</th>
+                <th>Bilangan 2</th>
+                <th>Hasil</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="bil1">-</td>
+                <td id="bil2">-</td>
+                <td id="hasil">-</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
